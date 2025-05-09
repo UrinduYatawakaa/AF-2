@@ -101,11 +101,8 @@ The application is deployed on Vercel. You can access it at [https://countries-e
 - **Challenge**: Mocking API calls and testing asynchronous components
 - **Solution**: Used Jest mocks for fetch and created comprehensive test utilities
 
-## Future Improvements
+## Hosted Link
 
-- Add more detailed statistics and visualizations for country data
-- Implement server-side rendering for better performance
-- Add map visualizations for countries
-- Enhance the favorites feature with categories or notes
-- Add more comprehensive error handling and fallbacks
+- https://af-2-beryl.vercel.app
 
+](https://af-2-beryl.vercel.app)
