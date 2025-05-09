@@ -109,10 +109,3 @@ The application is deployed on Vercel. You can access it at [https://countries-e
 - Enhance the favorites feature with categories or notes
 - Add more comprehensive error handling and fallbacks
 
-## Author
-
-[Your Name]
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
