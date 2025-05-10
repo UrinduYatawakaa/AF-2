@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { useAuth } from "@/context/auth-context"
 import { Menu, X, Globe, Heart, LogIn, LogOut } from "lucide-react"
+import Image from "next/image"
 
 export function Navbar() {
   const pathname = usePathname()
@@ -41,8 +42,14 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2" onClick={closeMenu}>
-              <Globe className="h-6 w-6" />
-              <span className="text-xl font-bold">Countries Explorer</span>
+             <Image
+              src="/county.png"
+              alt="Logo"
+              width={28}
+              height={28}
+              className="text-primary"
+             />
+              <span className="text-xl font-bold">GoCounty</span>
             </Link>
           </div>
 

@@ -8,9 +8,8 @@ import { AuthProvider } from "@/context/auth-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Countries Explorer",
-  description: "Explore countries around the world using REST Countries API",
-    generator: 'v0.dev'
+  title: "GoCounty",
+  description: "Explore countries around the world using REST Countries API"
 }
 
 export default function RootLayout({
